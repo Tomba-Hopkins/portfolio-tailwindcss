@@ -13,6 +13,7 @@
             document.documentElement.classList.remove('dark')
         }
     </script>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
 </head>
 
 <body>
@@ -87,8 +88,8 @@
             <div class="flex flex-wrap">
                 <div class="self-center w-full px-4 lg:w-1/2">
                     <h1 class="text-base font-semibold text-primary md:text-xl">Halo Semua 🗡️, saya <span
-                            class="block mt-1 text-4xl font-bold text-dark lg:text-5xl dark:text-white"> Sidi
-                            Smithers</span></h1>
+                            class="block mt-1 text-4xl font-bold text-dark lg:text-5xl dark:text-white ganti font-mono">
+                            .....</span></h1>
                     <h2 class="mb-5 text-lg font-medium text-secondary lg:text-2xl">Offlaner | <span
                             class="text-dark dark:text-white">Roamer</span></h2>
                     <p class="mb-10 font-medium leading-relaxed text-secondary">Nasi Goreng topping telur dadar itu enak
@@ -104,7 +105,7 @@
                             class="max-w-full mx-auto relative z-10" scale(0.5)>
                         <span class="absolute -translate-x-1/2 -bottom-16 left-1/2 md:scale-125">
                             <svg width="400" height="400" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
-                                <path fill="#14b8a6"
+                                <path fill="#A076F9"
                                     d="M31.4,-49.6C39.6,-43.6,44.3,-33,54.6,-21.6C64.9,-10.3,80.9,1.8,79.4,11.4C78,20.9,59.2,27.9,44.3,30C29.5,32.1,18.6,29.3,8.3,35.7C-2,42.1,-11.7,57.6,-23.3,62.1C-34.9,66.6,-48.3,60.1,-50.5,48.7C-52.6,37.3,-43.5,21.1,-40.7,8.8C-37.9,-3.5,-41.4,-12,-40.7,-20.7C-40,-29.3,-35.1,-38.2,-27.6,-44.5C-20.2,-50.7,-10.1,-54.5,0.8,-55.7C11.6,-56.9,23.2,-55.6,31.4,-49.6Z"
                                     transform="translate(100 100)" scale(1.1) />
                             </svg>
@@ -517,6 +518,16 @@
     </a>
     <!-- Back to top End -->
 
+
+    <!-- Penerapan CDN Typed diatas -->
+    <script>
+        let typed = new Typed('.ganti', {
+            strings: ["Sidi Smithers", "Tomba Hopkins", "Tomkas Harrington"],
+            typeSpeed: 100,
+            backSpeed: 50,
+            loop: true
+        })
+    </script>
     <script src="dist/js/script.js"></script>
 </body>
 
